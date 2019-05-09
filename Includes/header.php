@@ -12,7 +12,7 @@
 <body>
 	<?php include("includes/nav.php");?>
 	<div class="text-center">
-		<h1>Baslik</h1>
+		<h1>Evebeyn Tartışma Sitesi</h1>
 	</div>
 
 	<div class="container">
