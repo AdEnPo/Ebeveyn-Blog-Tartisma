@@ -1,41 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ebeveyn</title>
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
-   	<link rel="stylesheet" type="text/css" href="assets/styles.css"> <link href="content/progressBar.scss" rel="stylesheet/scss" type="text/css"></link>
-    <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<title><?php echo TITLE;  ?></title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
-
-<style>
-@media (max-width: 768px) {
-	.ulList{
-		margin-right:-15px;
-		margin-bottom:50px;
-	}
-	.col-md-7{
-		padding:0px; 0px;
-	}
-	.col-md-6{
-		padding:0px;
-	}
-	
-}
-</style>
-<body style=" font-family: 'Bree Serif', serif;">
+<body>
 	<?php include("includes/nav.php");?>
 	<div class="text-center">
 		<h1>Evebeyn Tartışma Sitesi</h1>
 	</div>
 
+	<div class="container">
+		
+		<div class="row">
 
 			
 			
