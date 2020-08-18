@@ -1,0 +1,42 @@
+/*  ProfilePage -- Begin  */
+
+#kaydolPartBtn:hover{
+    background-color:#007bff;
+    color:#fff;
+  }
+  #girisPartBtn:hover{
+    background-color:#007bff;
+    color:#fff;
+        
+  }
+@media only screen and (max-width: 768px) {
+    #menuControl{
+        visibility: visible;
+     
+        position:fixed;
+       top:50px;
+       
+    }
+   
+  
+  }
+
+  @media only screen and (min-width: 768px) {
+    #menuControl{
+        visibility: visible;
+        position:fixed;
+        top:50px;
+        
+    }
+    #userMenuContent{
+   
+        position: fixed;
+        width: 23%;
+    }
+    .col-md-3{
+        padding-right: 0px;
+    }
+    
+  }
+/*  ProfilePage -- End  */
+

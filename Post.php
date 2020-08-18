@@ -1,6 +1,12 @@
+<?php include("includes/nav.php");?>
+	<div class="text-center" style="">
+		<h1>Baslik</h1>
+	</div>
+
 <?php 
 	define("TITLE", "Home | Web Project");
-	include ("includes/header.php"); 
+  include ("includes/header.php"); 
+  include ("db/post.php");
 ?>
 <div class="container-fluid" >  
 <div class="row">  
@@ -11,6 +17,9 @@
       <h5 style="margin:auto auto; padding:20px; color:#aaa">Teknolojinin Çocuklar Üzerindeki Etkisi</h5>
       </div>
       <div class="row" id="postIcerik" style = "text-align:justify; color:#7A7777">
+      <?php
+        echo $post["text"];
+      ?>
       <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos est ducimus autem quasi animi velit maxime, mollitia, deleniti similique quibusdam soluta dolor magnam quidem repudiandae ea. Vel nostrum itaque eaque.
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, molestiae tenetur minus maiores laudantium provident culpa sunt fugiat amet architecto nulla perspiciatis laboriosam, eius non quas atque enim est corporis!
        </p>

@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
    	<link rel="stylesheet" type="text/css" href="assets/styles.css"> <link href="content/progressBar.scss" rel="stylesheet/scss" type="text/css"></link>
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-
-
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+<link href="node_modules/froala-editor/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 
 
 
@@ -32,7 +35,20 @@
 	.col-md-6{
 		padding:0px;
 	}
-
+  #userMenu{
+        display:none;
+    }
+    #posts{
+        padding:0px;
+    }
+  
+}
+@media (min-width: 768px) {
+    #posts{
+        padding:20px;
+        padding-right: 50px;
+    }
+  
 }
 #likeIcon :hover{
 	background-color:#1A86C1;
@@ -42,11 +58,7 @@
 }
 </style>
 <body style=" font-family: 'Bree Serif', serif;">
-	<?php include("includes/nav.php");?>
-	<div class="text-center" style="">
-		<h1>Baslik</h1>
-	</div>
-
+	
 
 			
 			
